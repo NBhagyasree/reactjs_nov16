@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>profile cards</title>
+        <style type="text/css">
+        .profile{
+            display: flex;
+            width: 100%;
+            border: 2px solid blue;
+            padding: 1%;
+            margin: 1%;
+            }
+            .profile>div{
+            padding: 1%;
+            margin: 1%;
+            width: 30%;
+            border:2px solid maroon;
+            text-align: center;
+            box-shadow:10px 10px 10px 10px;
+            
+            
+            }
+            img{
+                border-radius: 20%;
+                border:2px solid maroon;
+                }
+            button{
+                box-shadow:2px 2px 2px 2px;
+                color:skyblue;
+            }
+            a{
+                text-decoration: none;
+            }
+            .footer{
+                color:purple;
+                text-shadow: red;
+                text-align: center;
+            }
+            /* Tab View*/
+            @media only screen and (min-width:320px) and (max-width: 480px){
+                .profile{
+                display: flex;
+                flex-direction: column;
+                max-width: 100%;
+                }
+                .profile>div{
+                width: 90%;
+                
+                }
+                }
+                @media only screen and (min-width:481px) and (max-width: 768px){
+                    body{
+                    color: blue;
+                    }
+                    .profile{
+                    
+                    display: flex;
+                    flex-direction: row-reverse;
+                    max-width: 100%;
+                    /*flex-wrap: wrap;*/
+                    }
+                    .profile>div{
+                    width: 90%;
+                    
+                    }
+                    }
+                    @media only screen and (min-width:769px) and (max-width: 1024px){
+                        body{
+                        color: blue;
+                        }
+                        .profile{
+                        
+                        display: flex;
+                        flex-direction: row;
+                        max-width: 100%;
+                        /*flex-wrap: wrap;*/
+                        }
+                        .profile>div{
+                        width: 90%;
+                        background-color: yellow;
+                        
+                        }
+                        }
+            </style>
+        <link rel="icon" href="1.png">
+    </head>
+    <body>
+        <div class="profile">   
+            <div class="card">
+            <img src="1.png" height="200px" width="200px">
+            <h1 style="color:blue">nbs1</h1>
+            <hr>
+            <h4>RJY</h4>
+            <button><a href="#">View</a></button>
+            </div>
+            <div class="card">
+            <img src="1.png" height="200px" width="200px">
+            <h1 style="color:tomato">nbs2</h1>
+            <hr>
+            <h4>KKD</h4>
+            <button><a href="#">View</a></button>
+            </div>
+            <div class="card">
+            <img src="1.png" height="200px" width="200px">
+            <h1 style="color:violet">nbs1</h1>
+            <hr>
+            <h4>VZG</h4>
+            <button><a href="#">View</a></button>
+            </div>
+            </div>
+            <div class="footer">
+                <h2>This is developed by nbs on 20-11-2020</h2>
+            </div>
+           
+
+    </body>
+</html>
