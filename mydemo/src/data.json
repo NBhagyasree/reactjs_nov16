@@ -1,0 +1,35 @@
+{
+    "name":"N.Bhagyasree",
+    "phn":"7981118788",
+    "email":"bhagyasree45@gmail.com",
+    "DOB":"31-01-1997",
+    "profession":"SOFTWARE DEVELOPER FRESHER",
+    "professionalskills":["Web Technologys",",Python",",Django",",C lang"],
+    "Hobbies":["Chess",",Reading books",",Gardening"],
+    "carrier":"I plan to achieve this career vision through one-on-one learning situations (teaching and coaching); creating and publishing empowering and uplifting web content (career college success wellness); and developing and leading inspiring workshops.",
+            "street":"employees colony",
+            "mandal":"Rajhamundry",
+            "dist":"East godavari",
+            "state":"Andhra Pradesh",
+            "pincode":"531055",
+    "EducationDetails":[
+        {
+         "sno":1,
+         "institute":"Adikavi Nannaya University",
+         "percentage":83,
+         "duration":"2017-2021"
+        },
+        {
+         "sno":2,
+         "institute":"Narayana Jr College",
+         "percentage":98,
+         "duration":"2015-2017"
+        },
+        {
+         "sno":3,
+         "institute":"Sri sadguru vidyalayam",
+         "percentage":93,
+         "duration":"2017-2021"
+        }
+       ]
+} 
